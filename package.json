@@ -1,0 +1,26 @@
+{
+  "name": "saucedemo-ui-tests",
+  "version": "1.0.0",
+  "description": "SauceDemo UI test suite – Playwright + TypeScript",
+  "type": "module",
+  "scripts": {
+    "saucedemo-ui-test": "playwright test --grep \"@e2e\"",
+    "saucedemo-ui-test:headed": "playwright test --headed --workers=1 --grep \"@e2e\"",
+    "saucedemo-ui-test:report": "playwright show-report",
+    "format": "prettier --write ."
+  },
+  "author": "Humayun Naveed",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^25.6.2",
+    "dotenv": "^17.4.2",
+    "prettier": "^3.0.0",
+    "typescript": "^7.0.2"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
