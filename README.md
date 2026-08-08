@@ -27,7 +27,7 @@ npm run saucedemo-ui-test:report   # open the last HTML report
 ```
 config/    → environment/base URL + credentials
 data/      → test data (users, product names, expected text)
-pages/     → Page Object Model classes (Login, Products, ProductDetail, Cart)
+pages/     → Page Object Model classes (Login, Products, Cart)
 Utils/     → shared helpers
 tests/     → @e2e-tagged test specs
 ```
